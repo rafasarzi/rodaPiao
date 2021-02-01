@@ -3,18 +3,27 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-body{
-  background: #28045b;
-  background: linear-gradient(to right, #2a0d52, #4d3a68); 
+li{
+  color: #251a34;
+}
+h2.logo{
+  font-family:cursive
 }
 p.lead{
-  color: aliceblue;
+  color:#28045b;
 }
 section {
   padding: 150px 0;
 } 
 section#team{
   padding: 0%;
+}
+.bg-dark{
+  transition: background 500ms linear;
+  background-color: #4a484b !important;
+}
+.fixed-top{
+  transition: background 500ms linear;
 }
 
 .carousel-item {
