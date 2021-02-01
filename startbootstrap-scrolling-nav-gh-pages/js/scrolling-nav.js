@@ -1,3 +1,15 @@
+var menu = document.getElementById('mainNav');
+window.onscroll = function () { 
+if (document.documentElement.scrollTop >= 600 ) {
+    menu.classList.add("bg-dark");
+} 
+else {
+    menu.classList.remove("bg-dark");
+}
+};
+
+
+
 (function($) {
   "use strict"; // Start of use strict
 
